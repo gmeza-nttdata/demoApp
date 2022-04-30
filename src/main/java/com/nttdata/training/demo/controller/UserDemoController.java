@@ -8,11 +8,11 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/demo/user")
-public class DemoController {
+public class UserDemoController {
 
     private final DemoFacade demoFacade;
 
-    public DemoController(DemoFacade demoFacade) {
+    public UserDemoController(DemoFacade demoFacade) {
         this.demoFacade = demoFacade;
     }
 
