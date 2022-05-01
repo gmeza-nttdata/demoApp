@@ -41,7 +41,15 @@
     <dependency> 
       <groupId>org.springframework.boot</groupId>  
       <artifactId>spring-boot-starter-actuator</artifactId> 
-    </dependency> 
+    </dependency>
+
+    <dependency>
+      <groupId>com.azure</groupId>
+      <artifactId>azure-cosmos</artifactId>
+      <version>4.29.0</version>
+    </dependency>
+
+
   </dependencies>  
   <build> 
     <plugins> 
