@@ -11,7 +11,7 @@ public class DemoController {
     @GetMapping
     private String demo() {
         log.info("Welcome to Updated Demo App - LOGGING");
-        return "Welcome to Demo App";
+        return "Welcome to Updated Demo App, this is from staging";
     }
 
 }
