@@ -41,8 +41,13 @@
     <dependency> 
       <groupId>org.springframework.boot</groupId>  
       <artifactId>spring-boot-starter-actuator</artifactId> 
-    </dependency> 
-  </dependencies>  
+    </dependency>
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-webflux-ui</artifactId>
+      <version>1.5.9</version>
+    </dependency>
+  </dependencies>
   <build> 
     <plugins> 
       <plugin> 
